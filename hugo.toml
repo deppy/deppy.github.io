@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+title = 'Michael C'
+theme = "gokarna"
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[params]
+  accentColor = "#F09"
+  avatarURL = "/images/michael.webp"
+  description = "How to contact me"
+  socialIcons = [
+    {name = "at-sign", url = "https://bsky.app/profile/omgdeppy.bsky.social"},
+    {name = "calendar", url = "https://calendly.com/michaelrclay"},
+    {name = "github", url = "https://github.com/deppy"},
+    {name = "gitlab", url = "https://gitlab.com/deppy"},
+    {name = "mail", url = "mailto:michaelrclay@gmail.com"},
+    {name = "instagram", url = "https://instagram.com/omgdeppy"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/michaelrclay/"},
+  ]
